@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+@theme {
+  --color-nav-text: #003459;
+  --color-netural-color: #00171f;
+  --color-netural-gray: #667479;
+  --color-linear: #fceed5;
+  --color-primary-dark-blue: #002a48;
+  --color-netural-color-40: #99a2a5;
+  --color-netural-color-white: #fdfdfd;
+  --color-border-color: #EBEEEF;
+}
