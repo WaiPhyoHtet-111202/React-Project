@@ -16,9 +16,13 @@ const DetailPage = ({ data }) => {
   const switchDetail = (id) => {
     navigate(`/detail/${id}`);
   };
+  if (!detail) {
+    return <div>Loading...</div>;
+  }
   return (
     <>
       {console.log(detail)}
+
       <div className="flex  flex-col gap-5 items-center ">
         <div className="flex flex-col px-3 lg:grid lg:grid-cols-2 gap-8 xl:px-32.5 md:px-25 lg:px-15">
           <div className="flex flex-col gap-2  pt-5">

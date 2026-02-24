@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
+
 const LessCard = ({ data }) => {
   const navigate = useNavigate();
   const switchRoute = (id) => {
